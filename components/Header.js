@@ -57,7 +57,7 @@ function Header({placeholder}) {
         key: 'selection'
     }
     return (
-        <header className="sticky top-0 z-50 bg-white shadow-md p-5 md:px-10 flex justify-around flex-wrap gap-6">
+        <header className="sticky max-[345px]:-top-[64px] top-0 z-50 bg-white shadow-md p-5 md:px-10 flex justify-around flex-wrap gap-6">
             {/* Left */}
             <div onClick={()=> router.push('./')} className="w-[50px] md:w-[135px] relative my-auto flex items-center h-10 cursor-pointer">
                 <Image
